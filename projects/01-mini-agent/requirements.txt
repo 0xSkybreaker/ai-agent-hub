@@ -1,0 +1,11 @@
+# LLM Client (OpenAI-compatible, works with NVIDIA NIM)
+openai>=1.55.0
+
+# Configuration
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.1
+
+# CLI
+typer>=0.15.0
+rich>=13.9.0
