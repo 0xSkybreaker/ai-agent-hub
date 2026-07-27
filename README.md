@@ -31,7 +31,7 @@ ai-agent-hub/
 |---|------|------|------|
 | 01 | [mini-agent](projects/01-mini-agent/) | ✅ 完成 | 最小 ReAct Agent，零框架依赖 |
 | 02 | [rag-agent](projects/02-rag-agent/) | ✅ 已有 | 基于 NVIDIA NIM 的 RAG 文档问答 |
-| 03 | agentic-rag | 🔜 待做 | 在 rag-agent 上加 Agent 决策循环 |
+| 03 | [agentic-rag](projects/03-agentic-rag/) | ✅ 已有 | ReAct Agent 自主驱动 RAG 检索与合成 |
 | … | 更多 | 🔜 | 持续更新 |
 
 ## 学习路线
@@ -39,7 +39,7 @@ ai-agent-hub/
 ```
 第 1-2 周：通读笔记 → 画出 Agent 架构全景图
 第 3-4 周：做 01-mini-agent → 理解 ReAct 循环的本质
-第 5-6 周：做 02/03 → 把现有 RAG 升级为真正 Agent
+第 5-6 周：做 02/03 → 理解 RAG，再将 Agent 循环叠加到 RAG 上
 第 7-8 周：整理面试故事 → 刷高频题 → 白板练习
 ```
 

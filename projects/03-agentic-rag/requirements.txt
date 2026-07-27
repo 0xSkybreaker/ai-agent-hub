@@ -1,0 +1,29 @@
+# OpenAI SDK (for native function calling — the agent loop)
+openai>=1.55.0
+
+# LangChain components (for rag-agent reuse)
+langchain>=0.3.0
+langchain-nvidia-ai-endpoints>=0.2.0
+langchain-chroma>=0.2.0
+langchain-community>=0.3.0
+
+# Vector Store
+chromadb>=0.5.20
+
+# Configuration
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.1
+
+# API Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+sse-starlette>=2.1.0
+
+# CLI
+typer>=0.15.0
+rich>=13.9.0
+
+# Utilities
+loguru>=0.7.0
+httpx>=0.28.0
